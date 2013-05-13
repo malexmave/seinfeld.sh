@@ -16,11 +16,7 @@ SETUP
 > 
 > \# this is a comment
 > 
-> \# You can also indent the dashes after the column for nicer format like
-> 
-> project3:-
-> 
-> test:    -
+> \# You can also indent the dashes after the column for nicer formatting
 
 The single dash at the end is optional and represents the first day of the chain. It can be added later by the program.
 
