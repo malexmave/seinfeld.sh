@@ -11,10 +11,15 @@ SETUP
 1. create a textfile that will contain the projects you want to track, with a format of:
 
 > projectname:-
+> 
 > project2:-
+> 
 > \# this is a comment
+> 
 > \# You can also indent the dashes after the column for nicer format like
+> 
 > project3:-
+> 
 > test:    -
 
 The single dash at the end is optional and represents the first day of the chain. It can be added later by the program.
