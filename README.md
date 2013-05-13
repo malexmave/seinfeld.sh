@@ -38,6 +38,9 @@ USAGE
     seinfield.sh [ do PROJECT | undo PROJECT | ls | newday ]
 
 do:     Tick a project for the day (will replace today's "-" with a "#"
+
 undo:   Untick a project for the day (will replace today's "#" with a "-")
+
 ls:     Show chains for all Projects
+
 newday: Add a "-" to the end of every project's line
