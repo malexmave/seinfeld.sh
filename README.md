@@ -1,7 +1,7 @@
-seinfield.sh
+seinfeld.sh
 ============
 
-Very simple CLI seinfield chain tracker.
+Very simple CLI seinfeld chain tracker.
 
 This piece of Code is highly beta and is still lacking a lot of features. Feel free to clone it and send pull requests.
 
@@ -26,16 +26,16 @@ The single dash at the end is optional and represents the first day of the chain
 
 2. add ```export SEINFILE=/path/to/textfile.txt``` to your .bashrc or equivalent file. Restart your shell to enable the new enviromental variable.
 
-3. (optional) Move seinfield.sh to somewhere inside your PATH and rename it to something more handy, like ```sf```
+3. (optional) Move seinfeld.sh to somewhere inside your PATH and rename it to something more handy, like ```sf```
 
-4. (optional) If you have not yet added any dashes to your projects, run ```./seinfield.sh newday``` (or ```sf newday``` if you followed step 3)
+4. (optional) If you have not yet added any dashes to your projects, run ```./seinfeld.sh newday``` (or ```sf newday``` if you followed step 3)
 
-5. At the moment, new days are not recognized automatically. This is horrible, I know, but for now, you could add something along the lines of ```@daily /path/to/seinfield.sh newday``` to your crontab.
+5. At the moment, new days are not recognized automatically. This is horrible, I know, but for now, you could add something along the lines of ```@daily /path/to/seinfeld.sh newday``` to your crontab.
 
 USAGE
 -----
 
-    seinfield.sh [ do PROJECT | undo PROJECT | ls | newday ]
+    seinfeld.sh [ do PROJECT | undo PROJECT | ls | newday ]
 
 do:     Tick a project for the day (will replace today's "-" with a "#"
 

@@ -5,7 +5,7 @@
 # This code is licensed under the "Do whatever the hell you like with it"-License.
 # I can not be held liable for any damages, including clawed out eyes due to the quality of the code.
 # This Program was hacked together within 30 minutes or so, so do not expect fancy stuff.
-# Have fun and be productive, and send pull requests at https://github.com/malexmave/seinfield.sh
+# Have fun and be productive, and send pull requests at https://github.com/malexmave/seinfeld.sh
 if [ ! -f $SEINFILE ] ; then 
   echo ERROR: $SEINFILE does not exist!
   exit 1
