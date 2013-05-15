@@ -28,5 +28,5 @@ elif [ "$1" = "newday" ]
     sed -i "/^#/!s/$/-/" $SEINFILE
 elif [ "$1" = "ls" ]
   then
-    sed -n '/^#/!p' $SEINFILE | sed -e 's/#/\x1b[32m&\x1b[37m/g' -e 's/-/\x1b[33m&\x1b[37m/g'
+    sed -n '/^#/!p' $SEINFILE | sed -e 's/#/\x1b[32m&\x1b[0m/g' -e 's/-/\x1b[33m&\x1b[0m/g'
 fi
