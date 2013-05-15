@@ -1,11 +1,4 @@
 #!/bin/bash
-# Author: Max Maass
-# 
-# License:
-# This code is licensed under the "Do whatever the hell you like with it"-License.
-# I can not be held liable for any damages, including clawed out eyes due to the quality of the code.
-# This Program was hacked together within 30 minutes or so, so do not expect fancy stuff.
-# Have fun and be productive, and send pull requests at https://github.com/malexmave/seinfeld.sh
 if [ ! -f $SEINFILE ] ; then 
   echo ERROR: $SEINFILE does not exist!
   exit 1
@@ -35,5 +28,5 @@ elif [ "$1" = "newday" ]
     sed -i "/^#/!s/$/-/" $SEINFILE
 elif [ "$1" = "ls" ]
   then
-    sed -n "/^#/!p" $SEINFILE
+    sed -n '/^#/!p' $SEINFILE | sed -e 's/#/\x1b[32m&\x1b[37m/g' -e 's/-/\x1b[33m&\x1b[37m/g'
 fi
